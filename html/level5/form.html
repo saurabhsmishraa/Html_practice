@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+</head>
+
+<body>
+    <form action="/submit.php" method="post">
+        UserName: <input type="text" name="username" placeholder="enter your username" required> <br>
+        Password : <input type="password"><br>
+
+        <hr>
+        <label for="email">Email</label>
+        <input type="mail" name="email" id="email"><br>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+
+        <br>
+        <label for="file">File</label>
+        <input type="file" name="file" id="file"><br>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color"><br><br><br>
+        <label for="range">Range</label>
+        <input type="range"><br>
+
+        <label for="poke">PokeMe</label>
+        <input type="button" name="poke" id="poke" value="poke">
+        <br><br>
+
+
+
+        <hr>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="Male"><br>
+        <label for="female">FeMale:</label>
+        <input type="radio" name="gender" id="female" value="Female"><br>
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other" value="Other"><br>
+        <hr>
+        <label for="java">Java</label>
+        <input type="checkbox" name="lang" id="java" value="java"><br>
+        <label for="express">Express</label>
+        <input type="checkbox" name="lang" id="express" value="express"><br>
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="lang" id="javascript" value="javascript"><br>
+
+        <hr>
+        <hr>
+        <br>
+        <label for="country">select a country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Us">Us</option>
+            <option value="Uk">Uk</option>
+            <option value="Japan">Japan</option>
+            <option value="Austrailiya">Austrailiya</option>
+        </select>
+        <br><br><br>
+        <textarea name="story" id="story" rows="5" cols="15">Please write Story</textarea>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
